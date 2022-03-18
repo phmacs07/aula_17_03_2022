@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang ='pt-br'>
+    <head>
+        <title>Aula 17/03 - Tabelas</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Tabelas</h1>
+        <table>
+            <thead> <!--Cabeçalho-->
+                <tbody>
+                <tr> <!--Table row (linha de tabela)-->
+                    <td>Paulo</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Fulano</td>
+                    <td>99</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total:</td>
+                        <td>117</td>
+                    </tr>
+                </tfoot>
+            </thead>
+        </table>
+
+        <table><!--Iniciaar a tabela--></table>
+        <hr>
+        <table border="2px">
+            <tr>
+                <th>nome</th>
+                <th>idade</th>
+                <th>cidade</th>
+            </tr>
+            <tr>
+                <td>nome2</td>
+                <td>18</td>
+                <td rowspan="2">Sapiranga</td><!-- mescla duas ou mais linhas-->
+            </tr>
+            <tr>
+                <td>nome3</td>
+                <td>18</td>
+                
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td colspan="2">18</td> <!-- mescla duas ou mais colunas-->
+            </tr>
+        </table>
+        <hr>
+        <table border="2px">
+            <tr>
+                <th>nome</th>
+                <th>idade</th>
+                <th>cidade😁</th>
+            </tr>
+            <tr>
+                <td>nome2</td>
+                <td colspan="2" rowspan="2">18</td>
+            </tr>
+            <tr>
+                <td>nome3</td>
+                
+                
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>20</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Iframe</h2>
+        <iframe src="http://growdev.com.br" width="100%" frameborder="0"></iframe>
+    </body>
+
+</html>
